@@ -5,7 +5,7 @@ from apputil import *
 
 st.write(
 '''
-# Week x: [Title]
+# Week 2: Coins
 
 ...
 ''')
@@ -17,5 +17,5 @@ amount = st.number_input("Exercise Input: ",
                          format="%d")
 
 if amount is not None:
-    st.write(f"The exercise input was {amount}.")
+    st.write(f"There are {ways(amount)} differnet ways to make {amount} cents using only pennies and nickels.")
 
