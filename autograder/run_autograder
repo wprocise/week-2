@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+cd /autograder
+
+# add submission modules to PYTHONPATH
+export PYTHONPATH=$PYTHONPATH:/autograder/submission
+
+# run the tests
+~/miniconda3/bin/python run_tests.py

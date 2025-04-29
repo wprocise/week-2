@@ -1,0 +1,8 @@
+name: coding-exercise
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - streamlit
+    - pandas
+    - numpy
