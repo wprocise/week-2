@@ -8,9 +8,9 @@ This is a repository for a weekly coding exercise. Each weekly coding exercise i
 
 *(As of April 2025)*
 
-1. Fork this repository.
-2. [Create a Codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository) for your repository (this may take a minute to load). Use this to make changes to the code and to test the web app.
-3. Submit a URL to your (forked) repository on Canvas ([using Gradescope](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment)).
+1. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository) this repository.
+2. [Create a Codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository) for your forked repository (this may take a few minutes to load at first). Use the codespace to make changes to the code, and to test the web app.
+3. Test your code by submitting your forked repository [to the Gradescope autograder](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment) on Canvas.
 
 **Only update the file(s) noted in the exercise instructions below.** Updating any other files may affect your web app or your feedback.
 
