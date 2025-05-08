@@ -29,11 +29,12 @@ In the *apputil* file, add `ways(n)` and `ways_np(n)` accordingly to return the 
 The environment for this exercise is built with the following environment.yml:
 
 ```yml
-name: coding-exercise
+name: week-2
 dependencies:
   - python=3.11
   - pip
   - pip:
+    - ipykernel  # for Jupyter Notebook
     - streamlit
     - pandas
     - numpy

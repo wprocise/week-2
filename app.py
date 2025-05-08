@@ -17,5 +17,5 @@ amount = st.number_input("Exercise Input: ",
                          format="%d")
 
 if amount is not None:
-    st.write(f"There are {ways(amount)} differnet ways to make {amount} cents using only pennies and nickels.")
+    st.write(f"There are {ways(amount)} different ways to make {amount} cents using only pennies and nickels.")
 
