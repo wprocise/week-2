@@ -42,13 +42,13 @@ names = np.array(['Hannah', 'Astrid', 'Abdul', 'Mauve', 'Jung'])
 scores = np.array([99, 71, 85, 62, 91])
 ```
 
-#### part 1
+### part 1
 
 Use NumPy to write a function `lowest_score(names, scores)` that returns the `name` of the student with the lowest `score`.
 
 > Hint: take a look at the [argmin](https://numpy.org/doc/stable/reference/generated/numpy.argmin.html) function.
 
-#### part 2
+### part 2
 
 Write a similar function `sort_names(names, scores)` that will list the names of students in *descending* order of test score (i.e., a list of names, with associated scores in order from highest to lowest).
 
@@ -65,7 +65,7 @@ For these explorations, add your functions to the *apputil\.py* file. If you lik
 - Let `s` be a 1-D boolean (True/False) NumPy array where each element represents a student, and each value is an indicator for whether a student was caught texting in class.
 - Let `d` be 1-D numeric array where each element represents an instructor, and each value is the number of points that instructor would remove from a student's grade if they are caught texting in class.
 
-#### part 1
+### part 1
 
 Write a function which takes in `s` and `d`, and returns an array with a row for each instructor, and a column for each student. The values should be the number of points that would be removed for each student-instructor combination.
 
@@ -80,7 +80,7 @@ d = np.array([20, 15])
            [15,  0,  0, 15, 15]])
 ```
 
-#### part 2
+### part 2
 
 Adjust the function to return the total number of points each instructor would have removed by adding an *optional* Boolean argument called `totals`.
 
